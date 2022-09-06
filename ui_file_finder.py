@@ -30,7 +30,7 @@ canvas_main.create_window(400, 260, window=path_target_folder)
 txt_file_ext = tk.Entry(root)  # input box responsible for target folder path
 canvas_main.create_window(400, 310, window=txt_file_ext)
 
-# # browse button
+# # browse button should be revised
 # file = tkfilebrowser.askopenfilename(parent=root, mode='rb', title='Choose a file')
 # if file:
 #     data = file.read()
