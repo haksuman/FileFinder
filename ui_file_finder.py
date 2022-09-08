@@ -1,5 +1,4 @@
 import tkinter as tk
-import tkfilebrowser
 from file_finder import file_copy_func
 
 
@@ -30,12 +29,6 @@ canvas_main.create_window(400, 260, window=path_target_folder)
 txt_file_ext = tk.Entry(root)  # input box responsible for target folder path
 canvas_main.create_window(400, 310, window=txt_file_ext)
 
-# # browse button should be revised
-# file = tkfilebrowser.askopenfilename(parent=root, mode='rb', title='Choose a file')
-# if file:
-#     data = file.read()
-#     file.close()
-#     print("OK")
 
 # include function
 def fnc_btn_copy_files():
